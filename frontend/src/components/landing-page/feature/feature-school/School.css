@@ -1,0 +1,118 @@
+.school {
+  @import url('https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap');
+
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 200px;
+    gap: 50px;
+  }
+
+  .section1 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 30px;
+      color: #22417e;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+
+  .section2 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 50px;
+  }
+
+  .section2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* SECTION 3 */
+  .section3 {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #fff;
+    font-size: 22px;
+    color: #333;
+  }
+
+  .section3 img {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+
+  .section4 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    font-family: 'Courier New', monospace;
+  }
+
+  .section4 .background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+  .section4 .section3-content1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-right: 400px;
+    margin-left: 200px;
+    font-size: 25px;
+    line-height: 1.8;
+  }
+
+  .section4 .section3-content1 p:first-child {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .section4 .section3-content2 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+    gap: 80px;
+  }
+
+  .section4 .section3-content2 .content2-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section4 .section3-content2 .content2-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    flex: 1;
+    margin-right: 150px;
+    font-size: 25px;
+    line-height: 1.6;
+    font-family: 'Courier New', monospace;
+  }
+
+  .section4 .section3-content3 {
+    text-align: center;
+    font-family: 'Puppies Play', cursive;
+    font-size: 100px;
+    color: white;
+  }
+
+}

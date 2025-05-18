@@ -1,0 +1,97 @@
+.healthcare {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    /* Section 1 */
+    .section1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 12px;
+    }
+
+    .section1-left {
+        flex: 1;
+        padding-right: 1rem;
+        padding-left: 4rem;
+    }
+
+    .section1-left h2 {
+        font-size: 30px;
+        color: #2a3b8f;
+        margin-bottom: 1rem;
+    }
+
+    .section1-left p {
+        margin-bottom: 0.75rem;
+        color: #333;
+        font-size: 25px;
+    }
+
+    .section1-right {
+        flex: 1;
+        text-align: center;
+    }
+
+    .section1-right img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    /* Section 2 */
+    .section2 {
+        background-color: #fff0f5;
+        padding: 3rem 1rem;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .section2-title {
+        color: #4a3acc;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 3rem;
+    }
+
+    .section2-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .section2-content {
+        display: flex;
+        align-items: center;
+        background-color: #f3f6f6;
+        padding: 1.5rem 2rem;
+        border-radius: 16px;
+        width: 90%;
+        max-width: 900px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+    }
+
+    .section2-content:hover {
+        transform: translateY(-4px);
+    }
+
+    .section2-content img {
+        width: 180px;
+        height: auto;
+        margin-right: 2rem;
+        border-radius: 10px;
+        flex-shrink: 0;
+    }
+
+    .section2-content p {
+        margin: 0;
+        font-size: 25px;
+        color: #333;
+        text-align: left;
+    }
+}
+
