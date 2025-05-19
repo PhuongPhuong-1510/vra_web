@@ -1,0 +1,196 @@
+.auth {
+    /* General styles */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+    
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
+    padding: 20px;
+    
+
+    /* Auth container styles */
+    .auth-container {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .auth-card {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        position: relative;
+    }
+
+    /* Back button */
+    .back-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #f5f5f5;
+        text-decoration: none;
+    }
+
+    /* Logo */
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .vra-logo {
+        height: 60px;
+    }
+
+    /* Welcome text */
+    .welcome-text {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .instructions {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: #555;
+        line-height: 1.5;
+    }
+
+    /* Form styles */
+    .auth-form {
+        width: 100%;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    input:focus {
+        border-color: #0071bc;
+    }
+
+    /* Button styles */
+    .auth-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary {
+        background-color: #0e326c;
+        color: white;
+    }
+
+    .btn-primary:hover {
+        background-color: #0a2657;
+    }
+
+    .btn-login-teacher {
+        background-color: #0071bc;
+    }
+
+    .btn-login-teacher:hover {
+        background-color: #005a94;
+    }
+
+    .btn-register {
+        background-color: #d32f2f;
+        color: white;
+    }
+
+    .btn-register:hover {
+        background-color: #b71c1c;
+    }
+
+    .btn-send {
+        background-color: #d32f2f;
+        color: white;
+    }
+
+    .btn-send:hover {
+        background-color: #b71c1c;
+    }
+
+    /* Link styles */
+    .form-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .form-link a {
+        color: #0071bc;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .form-link a:hover {
+        text-decoration: underline;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+        .auth-card {
+            padding: 20px;
+        }
+        
+        .back-button {
+            top: 15px;
+            left: 15px;
+        }
+        
+        .welcome-text {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
